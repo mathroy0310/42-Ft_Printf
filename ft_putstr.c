@@ -14,7 +14,7 @@
 
 void	ft_putstr(const char *str, int *count)
 {
-	int	i;
+	int i;
 
 	if (!str)
 		*count += write(1, "(null)", 6);

@@ -1,6 +1,6 @@
 # 42-Ft_Printf
 
-<sub><sup>Because ft_putnbr() and ft_putstr() aren’t enough</sup></sub>
+Because ft_putnbr() and ft_putstr() aren’t enough
 
 **Summary:**
 The goal of this project is pretty straightforward. You will recode printf().
@@ -26,3 +26,4 @@ It is actually pretty cool :)
 • **%X** Prints a number in hexadecimal (base 16) uppercase format.
 
 • **%%** Prints a percent sign.
+

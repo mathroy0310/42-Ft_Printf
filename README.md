@@ -1,27 +1,28 @@
 # 42-Ft_Printf
 
-Because ft_putnbr() and ft_putstr() aren’t enough
-Summary:
+<sub><sup>Because ft_putnbr() and ft_putstr() aren’t enough</sup></sub>
+
+**Summary:**
 The goal of this project is pretty straightforward. You will recode printf().
 You will mainly learn about using a variable number of arguments. How cool is that??
 It is actually pretty cool :)
 
 # Conversion Implimented 
 
-• %c Prints a single character.
+• **%c** Prints a single character.
 
-• %s Prints a string (as defined by the common C convention).
+• **%s** Prints a string (as defined by the common C convention).
 
-• %p The void * pointer argument has to be printed in hexadecimal format.
+• **%p** The void * pointer argument has to be printed in hexadecimal format.
 
-• %d Prints a decimal (base 10) number.
+• **%d** Prints a decimal (base 10) number.
 
-• %i Prints an integer in base 10.
+• **%i** Prints an integer in base 10.
 
-• %u Prints an unsigned decimal (base 10) number.
+• **%u** Prints an unsigned decimal (base 10) number.
 
-• %x Prints a number in hexadecimal (base 16) lowercase format.
+• **%x** Prints a number in hexadecimal (base 16) lowercase format.
 
-• %X Prints a number in hexadecimal (base 16) uppercase format.
+• **%X** Prints a number in hexadecimal (base 16) uppercase format.
 
-• %% Prints a percent sign.
+• **%%** Prints a percent sign.

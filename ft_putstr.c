@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
+/*   By: maroy <maroy@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/21 19:02:11 by marvin            #+#    #+#             */
-/*   Updated: 2022/11/21 19:02:11 by marvin           ###   ########.fr       */
+/*   Updated: 2022/11/22 13:04:20 by maroy            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_putstr(const char *str, int *count)
 {
-	int i;
+	int	i;
 
 	if (!str)
 		*count += write(1, "(null)", 6);

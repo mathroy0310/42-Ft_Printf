@@ -10,19 +10,19 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef FT_PRINTF_H
+#define FT_PRINTF_H
+
 #include <stdio.h>
 #include <stdarg.h>
+#include <unistd.h>
 
+void	ft_print(va_list args, const char *format, int *count, int *i);
+int		ft_printf(const char *format, ...);
+void	ft_putchar(int c, int *count);
+void	ft_putnbr(int n, int *count);
+void	ft_putunbr(unsigned int n, int *count);
+void	ft_putstr(const char *str, int *count);
+size_t	ft_strlen(const char *s);
 
-typedef struct s_format
-{
-	int		minus;
-	int		plus;
-	int		space;
-	int		zero;
-	int		hash;
-	int		dot;
-	int		width;
-	int		pcs;
-	char	type;
-}	t_format;
+#endif
